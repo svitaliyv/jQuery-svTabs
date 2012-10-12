@@ -1,0 +1,50 @@
+.b-tabbed-pane__panel {
+    display: none;
+}
+.b-tabbed-pane__panel_state_current {
+    display: block;
+}
+.b-tabbed-pane__tab {
+    position: relative;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.b-tabbed-pane__tab_state_current {
+    cursor: default;
+}
+.b-tabbed-pane__tab {
+    cursor: pointer;
+}
+.b-tabbed-pane__panels {
+    margin-bottom: 0.7em;
+}
+.b-menu__item_state_current {
+    font-weight: bold;
+}
+
+.b-tabbed-pane_theme_simple .b-tabbed-pane__tab_state_current {
+    background: white;
+    border-bottom-color: white;
+}
+.b-tabbed-pane_theme_simple .b-tabbed-pane__tab {
+    padding: 5px 10px;
+    background: #F3F3F3;
+    border-width: 1px;
+    border-color: #D8D8D8;
+    border-style: solid solid solid none;
+}
+.b-tabbed-pane_theme_simple .b-tabbed-pane__panels {
+    width: 400px;
+    margin: -1px 0 0 11px;
+    padding: 10px;
+    border: 1px solid #D8D8D8;
+}
+.b-tabbed-pane_theme_simple .b-tabbed-pane__tabs {
+    margin: 10px 0 0 11px;
+    border-left: 1px solid #D8D8D8;
+}

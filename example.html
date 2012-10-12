@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jQuery svTabs plugin demo page</title>
+    <link href="b-tabbed-pane.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery.svTabs.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('.js-tabs').svTabs();
+        })
+    </script>
+</head>
+<body>
+<h1>Query svTabs plugin demo page</h1>
+<div class="b-tabbed-pane__wrapper">
+    <div class="js-tabs">
+        <div class="b-tabbed-pane__tabs">
+            <div class="btn b-tabbed-pane__tab b-tabbed-pane__tab_state_current">Day</div>
+            <div class="btn b-tabbed-pane__tab">Night</div>
+        </div>
+        <div class="b-tabbed-pane__panels">
+            <div class="b-tabbed-pane__panel b-tabbed-pane__panel_state_current">Helo</div>
+            <div class="b-tabbed-pane__panel">Bzzzz</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
